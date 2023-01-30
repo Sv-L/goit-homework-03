@@ -154,6 +154,9 @@ img {
 }
 
 .hero-title {
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 48px;
   color: var(--prymary-color);
   font-size: 56px;
