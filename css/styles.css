@@ -55,8 +55,6 @@ ul {
   padding-bottom: 120px;
 }
 /*---------------HEDER---------------------*/
-.header .container {
-}
 .logo {
   font-family: Raleway, sans-serif;
   text-transform: uppercase;
@@ -95,7 +93,6 @@ ul {
 .header-link {
   padding-top: 24px;
   padding-bottom: 24px;
-  display: block;
   color: var(--darc-color);
   font-weight: 500;
   font-size: 16px;
@@ -141,6 +138,7 @@ ul {
 .header .container {
   display: flex;
   justify-content: center;
+  align-items:center;
   border-bottom: 1px solid var(--accent-color);
 }
 
@@ -317,11 +315,6 @@ ul {
   color: var(--body-text-color);
 }
 
-.flex-conteiner {
-  width: 1128px;
-  margin-left: auto;
-  margin-right: auto;
-}
 .projects-list {
   display: flex;
   flex-wrap: wrap;
