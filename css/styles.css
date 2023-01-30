@@ -115,7 +115,6 @@ ul {
   margin-left: auto;
 }
 .address-list {
-  padding-inline-start: 0;
   display: flex;
 }
 
@@ -123,7 +122,6 @@ ul {
   margin-left: 40px;
 }
 .address-link {
-  display: block;
   padding-top: 24px;
   padding-bottom: 24px;
   font-style: normal;
