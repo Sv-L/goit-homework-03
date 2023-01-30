@@ -274,8 +274,8 @@ ul {
 
 .btn-list {
   text-align: center;
-  margin-bottom: 72px;
-  margin-top: 96px;
+  padding-top: 96px;
+  padding-bottom: 72px;
 }
 
 .projects-btn {
