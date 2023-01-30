@@ -17,10 +17,10 @@
     color:var(--body-text-color);
     font-family: Roboto, sans-serif;
     font-size: 16px;
-    
+    margin: 0;
     }
     
-    h1,h2,h3,h4,h5,h6,p{
+    h1,h2,h3,h4,h5,h6,p,ul{
     padding: 0;
     margin: 0;
     }
@@ -32,14 +32,28 @@
     }
 .link {
     text-decoration: none;
+    display: inline-block;
+    vertical-align: middle;
 }
 
 .container{
     width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
+    border: 5px solid red;
+}
+
+.section{
+    padding-bottom: 120px;
+    border: 5px solid green;
+
 }
 /*---------------HEDER---------------------*/
+.header .container{
+    
+}
 .logo{
     font-family:Raleway, sans-serif;
     text-transform: uppercase;
@@ -134,12 +148,8 @@
 .hero {
     padding-top: 188px;
     padding-bottom: 188px;
-    margin-bottom: 120px;
     background-color:var(--darc-color);
     text-align: center;
-    
-    
-    
 }
 
 .hero-title{
@@ -165,7 +175,7 @@
    letter-spacing: 0.04em;
    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
    border-radius: 4px;
-   border: none;
+   border-color: var(--primary-brand-color);
    cursor: pointer;
 }
 .hero-btn:hover,
@@ -175,8 +185,8 @@
 
 /*---------------FEATURES, DOING, TEAM---------------------*/
 .features{
-    margin-bottom: 120px;}
-
+    padding-top: 120px;
+}
 .features-list{
     display: flex;
     justify-content: center;
@@ -220,13 +230,8 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 }
 
-
-.doing{
-    margin-bottom: 120px;
-}
 .doing-title,
 .team-title {
-    margin-bottom: 72px;
     color:var(--darc-color);
     text-align: center;
     font-size: 36px;
@@ -276,9 +281,6 @@ line-height:1.5;
 letter-spacing: 0.02em;
 }
 /*-----------------PORTFOLIO--------------*/
-.projects{
-    margin-bottom: 120px;
-}
 
 .btn-list{
     text-align: center;
@@ -321,18 +323,13 @@ letter-spacing: 0.02em;
 }
 
 .flex-conteiner{
-    width: 1158px;
-    padding-left: 15px;
-    padding-right: 15px;
+    width: 1128px;
     margin-left: auto;
     margin-right: auto;
 }
 .projects-list{
     display: flex;
     flex-wrap: wrap;
-}
-.projects-item{
-    padding-bottom: 32px;
 }
 
 .projects-item:not(:nth-child(3n)){
@@ -342,12 +339,11 @@ letter-spacing: 0.02em;
     margin-bottom: 48px;
 }
 
-.projects-sub-title{
-    padding-top: 32px;
-}
-
 .border{
     border-left: 1px solid #E7E9FC;
     border-right: 1px solid #E7E9FC;
     border-bottom: 1px solid #E7E9FC;
+    padding-bottom: 32px;
+    padding-top: 32px;
+    padding-left: 16px;
 }
