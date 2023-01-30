@@ -248,7 +248,7 @@ ul {
   display: flex;
 }
 
-.team-item {
+.team-item:not(:last-child) {
   margin-right: 24px;
 }
 
