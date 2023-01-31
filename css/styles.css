@@ -16,7 +16,6 @@ body {
   background: var(--prymary-color);
   color: var(--body-text-color);
   font-family: Roboto, sans-serif;
-  margin: 0;
 }
 
 h1,
